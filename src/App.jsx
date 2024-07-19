@@ -1,25 +1,29 @@
-import { useState } from 'react'
 import Marquee from "react-fast-marquee";
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import gradiate from './assets/image/fv_gradiate.png';
+import { useTranslation,Trans } from 'react-i18next';
+
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const { t } = useTranslation();
   return (
     <>
-      <div className='title'>
+      <div className='title container'>
         <h1 className='roboto-black'>BE YOUR<br/><span className='title_creative'>CREATIVE</span> PARTNER</h1>
+        <Trans i18nKey="description">
+          how to use i18next
+        </Trans>
       </div>
       <div className="news">
         <Marquee>
           <p>ここにニュースが入ります。ここにニュースが入ります。ここにニュースが入ります。</p>
         </Marquee>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div>
+        <img src={gradiate} alt="gradiate" />
+      </div>
     </>
   )
 }

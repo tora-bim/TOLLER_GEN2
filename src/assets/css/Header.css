@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.logo{
+    color: var(--black01);
+    font-size: 28px;
+    text-decoration: none;
+    line-height: normal;
+    height: fit-content;
+}
+
+.menu{
+    display: flex;
+    gap: 48px;
+}
+
+.language{
+    display: flex;
+    height: fit-content;
+}
+
+.language button{
+    border: none;
+    background: none;
+    height: fit-content;
+    font-size: 24px;
+    line-height: normal;
+    cursor:pointer;
+    color: var(--black01);
+}
+
+.language button:disabled{
+    cursor: auto;
+    color: var(--black03);
+}
+
+.menu_lists{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.menu_list{
+    margin: 0pxs;
+    color: var(--black01);
+    text-decoration: none;
+    line-height: normal;
+    font-size: 16px;
+}
