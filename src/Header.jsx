@@ -31,6 +31,7 @@ function Header() {
                 <a href="" className='menu_list roboto-normal'>HOME</a>
                 <a href="" className='menu_list roboto-normal'>SERVICE</a>
                 <a href="" className="menu_list roboto-normal">WORKS</a>
+                <a href="" className="menu_list roboto-normal">NEWS</a>
                 <a href="" className="menu_list roboto-normal">CONTACT</a>
             </div>
         </div>

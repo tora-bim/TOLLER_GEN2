@@ -12,13 +12,13 @@ i18next
             en: {
                 translation: {
                     learn: 'Learn React',
-                    description: 'how to use i18next',
+                    subtitle: 'Be creative together.',
                 }
             },
             ja: {
                 translation: {
                     learn: 'Reactを学ぶ',
-                    description: 'i18nextの使い方',
+                    subtitle: '共にクリエイティブを創出する。',
                 },
             },
         }
