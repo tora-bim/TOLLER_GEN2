@@ -1,6 +1,7 @@
 import './index.css';
 import './assets/css/Header.css';
 import { useTranslation,Trans } from 'react-i18next';
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 
 function Header() {
 
@@ -11,7 +12,7 @@ function Header() {
     const { t, i18n } = useTranslation();
     
     return (
-      <>
+      <Router>
       <div className="header container">
         <a href='/' className='logo roboto-normal'>TOLLER Inc.</a>
         <div className="menu">
@@ -36,7 +37,7 @@ function Header() {
             </div>
         </div>
       </div>
-      </>
+      </Router>
     )
   }
   

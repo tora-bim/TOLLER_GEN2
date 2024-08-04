@@ -1,0 +1,36 @@
+.about_section{
+    padding:72px 96px;
+}
+
+hr{
+    margin: 0px;
+    background: var(--white);
+    color: var(--white);
+    border: solid 0.8px;
+}
+
+.about_name{
+    font-size: 24px;
+}
+
+.about_desc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 32px;
+}
+
+.about_eng{
+    font-size: 24px;
+    grid-area: 1/1;
+    text-align: right;
+    letter-spacing: calc(24px * 0.07);
+}
+
+.about_jp{
+    font-size: 14px;
+    font-family: "Noto Sans JP";
+    font-weight: 400;
+    grid-area: 2/2;
+    text-align: left;
+}

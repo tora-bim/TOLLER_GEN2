@@ -39,12 +39,23 @@
     font-size: 20px;
 }
 
-.news{
-    background: var(--orange01);
+.news_left{
+    background: var(--white);
     font-family: "Noto Sans JP";
-    color: var(--white);
+    color: var(--orange01);
     padding: 4px;
     border-top:solid 0.8px var(--white);
+    border-bottom: solid 0.5px var(--white);
+    z-index: 1;
+}
+
+.news_right{    
+    padding: 4px;
+    font-family: "Noto Sans JP";
+    background: var(--orange01);
+    color: var(--white);
+    border-bottom: solid 0.5px var(--white);
+    z-index: 1;
 }
 
 .gradiate_img{
@@ -55,4 +66,21 @@
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+.about{
+    padding: 160px 160px;
+    background: var(--orange01);
+    width: 100%;
+    color: var(--white);
+    background-image: linear-gradient(0deg, transparent calc(100% - 0.5px), #f0f0f020 calc(100% - 0.5px)),
+    linear-gradient(90deg, transparent calc(100% - 0.5px), #ffffff20 calc(100% - 0.5px));
+    background-size: 16px 16px;
+    background-repeat: repeat;
+    background-position: center center;
+}
+
+.about_title{
+    color: var(--white);
+    font-size: 48px;
 }

@@ -2,6 +2,7 @@
     display: flex;
     align-items: top;
     justify-content: space-between;
+    z-index: 3;
 }
 
 .logo{
@@ -11,6 +12,12 @@
     line-height: normal;
     height: fit-content;
     font-weight: 800;
+}
+
+.logo:hover{
+    color: var(--white);
+    transform: scale(1.1,1.1);
+    transition-duration: 0.4s;
 }
 
 .menu{
