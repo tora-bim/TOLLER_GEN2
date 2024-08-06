@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.service_root{
+    width: 100%;
+}
+
+.service_title{
+    font-size: 48px;
+}
+
+.n1{
+    margin-top: 48px;
+}
+
+.box{
+    width: 600px;
+    background: var(--white);
+    height: 300px;
+    margin-bottom: 32px;
+    border-top-left-radius: 48px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 48px;
+}
+
+.ser_header{
+    background: var(--orange01);
+    border-top-left-radius: 48px;
+    border-top-right-radius: 24px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 28px;
+}
+
+.ser_header span{
+    font-family: "Oswald",sans-serif;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 20px;
+}
+
+.ser_header_text{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.ser_header_text h3{
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.ser_header_text p{
+    font-family: "Noto Sans JP";
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--white);
+}

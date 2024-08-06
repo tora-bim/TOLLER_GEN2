@@ -18,6 +18,7 @@ hr{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-top: 32px;
+    padding: 0px 24px;
 }
 
 .about_eng{
@@ -25,6 +26,8 @@ hr{
     grid-area: 1/1;
     text-align: right;
     letter-spacing: calc(24px * 0.07);
+    word-break: keep-all;
+    overflow-wrap: break-word;
 }
 
 .about_jp{
@@ -33,4 +36,6 @@ hr{
     font-weight: 400;
     grid-area: 2/2;
     text-align: left;
+    word-break: keep-all;
+    overflow-wrap: break-word;
 }
